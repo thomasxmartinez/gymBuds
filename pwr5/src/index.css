@@ -51,13 +51,13 @@ div {
   color: white;
 }
 
-.gymBuddy {
+.gymBuddies {
   float: left;
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
 }
-.gymBuddy li {
+.gymBuddies li {
   cursor: pointer;
   position: relative;
   left: 0;
@@ -68,27 +68,27 @@ div {
   border-radius: 4px;
   width: 17em;
 }
-.gymBuddy li:hover {
+.gymBuddies li:hover {
   color: #607d8b;
   color: #0078d7;
   background-color: #ddd;
   left: 0.1em;
 }
-.gymBuddy li.selected:hover {
+.gymBuddies li.selected:hover {
   /*background-color: #BBD8DC !important;*/
   color: white;
 }
-.gymBuddy .text {
+.gymBuddies .text {
   position: relative;
   top: -3px;
 }
-.gymBuddy .saying {
+.gymBuddies .saying {
   margin: 5px 0;
 }
-.gymBuddy .name {
+.gymBuddies .name {
   font-weight: bold;
 }
-.gymBuddy .badge {
+.gymBuddies .badge {
   /* display: inline-block; */
   float: left;
   font-size: small;
